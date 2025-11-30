@@ -1,46 +1,43 @@
----
 
-# 📘 Stemming and Lemmatization – README
+# 📘 Stemming and Lemmatization
 
-This project demonstrates the basic concepts of **Stemming** and **Lemmatization**, two important text preprocessing techniques in Natural Language Processing (NLP).
+This project explains and demonstrates basic text preprocessing techniques used in Natural Language Processing (NLP).
 
-## 🔍 What’s Inside?
+## 🔍 Features
 
-* Explanation of stemming and how it reduces words to their root form
-* Demonstration of common stemmers (Porter, Snowball, Lancaster)
-* Explanation of lemmatization and how it returns valid dictionary words
-* Comparison between stemming vs. lemmatization
-* Python examples using **NLTK** and **spaCy**
+* What is stemming
+* What is lemmatization
+* Examples using Python
+* Comparison between the two methods
 
 ## 🛠 Requirements
 
-Install the required libraries using:
+Install needed packages:
 
 ```bash
 pip install nltk spacy
 python -m spacy download en_core_web_sm
 ```
 
-## ▶️ How to Run
+## ▶️ How to Use
 
-1. Open the notebook:
-   `Stemming_and_Lemmatization.ipynb`
-2. Run each cell in order to see the output.
-3. Modify the text samples to experiment with your own inputs.
+1. Open the notebook file: `Stemming_and_Lemmatization.ipynb`
+2. Run the cells in order.
+3. You can modify the sample text to test your own input.
 
 ## 📄 Output
 
-* Shows processed tokens for both stemming and lemmatization
-* Highlights differences in accuracy and structure
+* Shows stemmed words
+* Shows lemmatized words
+* Highlights their differences
 
-## 📚 Use Case
+## 📚 Applications
 
-Useful for NLP tasks like:
+These techniques are widely used in:
 
-* Text classification
 * Chatbots
-* Sentiment analysis
 * Search engines
-* Information retrieval
+* Sentiment analysis
+* NLP preprocessing
 
 ---
